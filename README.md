@@ -1,1 +1,1 @@
-# pdf-scrapper
+# earnings-report-pdf-scrapper
