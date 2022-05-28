@@ -1,9 +1,12 @@
 import pandas as pd
 import matplotlib as plt
 import requests
+import pdfquery
 
-df = pd.read_csv("file_path / file_name.")
-i = 0;
+
+pdf = pdfquery.PDFQuery('C:/Projs/earnings-report-pdf-scrapper/er-testers/20220427_alphabet_10Q.pdf')
+pdf.load()
+i = 0
 output = "last"
 while(i < 5):
     print (i)
