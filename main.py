@@ -1,8 +1,10 @@
 import pandas as pd
 import matplotlib as plt
 import requests
+import tabula
 
-df = pd.read_csv("file_path / file_name.")
+# df = pd.read_csv("file_path / file_name.")
+filePath = "./"
 i = 0;
 output = "last"
 while(i < 5):
