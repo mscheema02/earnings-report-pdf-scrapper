@@ -5,11 +5,8 @@ import tabula
 import pdfquery
 
 filePath = "./er-testers/20220427_alphabet_10Q.pdf"
-<<<<<<< HEAD
 df = tabula.read_pdf(filePath, pages = 'all')
-=======
 df = tabula.read_pdf(filePath, pages='all')
->>>>>>> bae7fea6bdb788318c5066655e94340bfea33008
 
 # pdf = pdfquery.PDFQuery('C:/Projs/earnings-report-pdf-scrapper/er-testers/20220427_alphabet_10Q.pdf')
 # pdf.load()
